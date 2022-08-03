@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Game",
+    "slug": "game",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/gd.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/gf.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+
+      "package":"com.Game.myapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
